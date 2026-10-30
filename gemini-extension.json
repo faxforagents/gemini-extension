@@ -1,0 +1,23 @@
+{
+  "name": "faxforagents",
+  "version": "1.0.0",
+  "description": "Send and receive faxes from Gemini CLI through Fax for Agents, a fax API, a hosted MCP server and SDKs built for AI agents.",
+  "mcpServers": {
+    "faxforagents": {
+      "command": "npx",
+      "args": ["-y", "faxforagents-mcp"],
+      "env": {
+        "FAXFORAGENTS_API_KEY": "${FAXFORAGENTS_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Fax for Agents API key",
+      "description": "Your Fax for Agents API key from https://faxforagents.com. A sandbox key starts with ffa_test_ and is free. A live key starts with ffa_live_.",
+      "envVar": "FAXFORAGENTS_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "contextFileName": "GEMINI.md"
+}
