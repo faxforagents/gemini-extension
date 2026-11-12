@@ -37,7 +37,7 @@ The extension runs `npx -y faxforagents-mcp`, so you need Node.js 20 or newer.
 
 ## What you get
 
-15 tools, plus resources and prompts, for sending and receiving faxes: quotes, human review, delegated policies and delivery evidence. The hosted endpoint at `https://mcp.faxforagents.com/mcp/` offers the same tools over Streamable HTTP if you prefer not to run a local process.
+17 tools, plus resources and prompts, for sending and receiving faxes: quotes, human review, delegated policies and delivery evidence. The hosted endpoint at `https://mcp.faxforagents.com/mcp/` offers the same tools over Streamable HTTP if you prefer not to run a local process.
 
 ## Links
 
